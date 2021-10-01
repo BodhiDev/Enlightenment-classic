@@ -6,7 +6,7 @@ This is the original Enlightenment/EFL theme saved for prosperities sake and for
 
 # Compatibility
 
-This repo starts with at commit [d8023529a1d747e97babca90a1072be5cddecbb7 ](https://git.enlightenment.org/core/efl.git/commit/data/elementary/themes?id=d8023529a1d747e97babca90a1072be5cddecbb7), immediately prior to the introduction of Raster's new flat theme, It is compatible with efl version 1.25 and enligtenment version 0.24.2. It should be backward compatible to some degree. The Bodhi Team makes no promise to keep this theme compatible with later versions of either enlightenment or EFL. If time allows we will try, otherwise patches would be greatly appreciated.
+This repo starts with at commit [d8023529a1d747e97babca90a1072be5cddecbb7](https://git.enlightenment.org/core/efl.git/commit/data/elementary/themes?id=d8023529a1d747e97babca90a1072be5cddecbb7), immediately prior to the introduction of Raster's new flat theme, It is compatible with efl version 1.25 and enligtenment version 0.24.2. It should be backward compatible to some degree. The Bodhi Team makes no promise to keep this theme compatible with later versions of either enlightenment or EFL. If time allows we will try, otherwise patches would be greatly appreciated.
 
 # Dependencies
 
@@ -32,7 +32,7 @@ meson . build
 ninja -C build
 ninja -C build install
 ```
-For more options see [meson_options.txt](https://github.com/rbtylee/MoonLIght/blob/master/meson_options.txt).
+For more options see [meson_options.txt](https://github.com/BodhiDev/enlightenment-classic/blob/main/meson_options.txt).
 
 # Contributing
 
