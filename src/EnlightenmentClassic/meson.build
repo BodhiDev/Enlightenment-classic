@@ -2,7 +2,7 @@ edc_file = 'EnlightenmentClassic.edc'
 
 e_theme_image_include = join_paths(meson.current_source_dir(), 'img')
 e_theme_emo_include = join_paths(meson.current_source_dir(), 'emo')
-e_theme_fdo_include = join_paths(meson.source_root(), 'icons', 'Enlightenment-X')
+e_theme_fdo_include = join_paths(meson.source_root(), 'icons', 'EnlightenmentClassic')
 e_theme_snd_include = join_paths(meson.current_source_dir(), 'snd')
 message(e_theme_fdo_include)
 e_theme = custom_target('EnlightenmentClassic.edj',

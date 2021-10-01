@@ -1,6 +1,6 @@
 #!/bin/sh
 edje_cc $@ -beta -fastdecomp  -id ./img \
-															-id ../../icons/Enlightenment-X/ \
+															-id ../../icons/EnlightenmentClassic \
 															-id ./emo \
 															-sd ./snd \
 															-fd . EnlightenmentClassic.edc \
