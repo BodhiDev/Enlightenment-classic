@@ -17,6 +17,21 @@ The below are only needed if you use the meson/ninja build system:
 * pkg-config
 * The development files for EFL.
 
+### Fonts
+
+The EFL theme EnlightenmentClassic uses a sans fontface. Be sure one is installed and fontconfig is properly set up. Bodhi by default uses:
+
+* fonts-dejavu-core
+
+### Icons
+It is recommended you have the hicolor-icon-theme installed as it is the default fallback theme for FreeDesktop.org icon themes.
+
+Since the EnlightenmentClassic Icon theme *inherits* from the below icon sets, it is suggested you install one or more of them as well.
+
+* Mint-X
+* RAVE-X
+* Faenza
+
 # Installation
 To install system wide for all users run the following commands in the top directory of this repo:
 
