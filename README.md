@@ -32,7 +32,8 @@ meson . build
 ninja -C build
 ninja -C build install
 ```
-For more options see [meson_options.txt](https://github.com/BodhiDev/enlightenment-classic/blob/main/meson_options.txt).
+
+Both the EFL theme and Icons are installed by default and both are named EnlightenmentClassic. For more options see [meson_options.txt](https://github.com/BodhiDev/enlightenment-classic/blob/main/meson_options.txt).
 
 # Contributing
 
