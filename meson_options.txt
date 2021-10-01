@@ -1,9 +1,15 @@
 option('edje-cc',
        type       : 'string',
-       description: 'A path to a edje_cc. Defaults to system edje_cc')
+       description: 'A path to the edje_cc. Defaults to the system edje_cc')
 option('edje-name',
        type       : 'string',
-       description: 'Custom name for Moksha Theme. Defaults to MokshaMoonlight')
-option('edj', 
+       description: 'Custom name for the EFL Theme. Defaults to EnlightenmentClassic')
+option('edj',
        type : 'boolean', value : true,
        description: 'Install efl theme. Defaults to true')
+option('icons',
+       type : 'boolean', value : true,
+       description: 'Install icon theme. Defaults to true')
+option('icon-dir',
+       type : 'string',
+       description: 'Determines Icon Dir name. Defaults to EnlightenmentClassic')
